@@ -10716,7 +10716,7 @@ h5,
 @media (max-width: 991.98px) {
   .ftco-navbar-light .navbar-brand {
     color: #fff;
-    font-size:large;
+    font-size:initial;
     font-weight: 400;
     margin-top: 0;
   }
@@ -11014,7 +11014,7 @@ h5,
 }
 .owl-carousel.home-slider {
   position: relative;
-  height: 600px;
+  height: 490px;
   z-index: 0;
 }
 .owl-carousel.home-slider .slider-item {
@@ -11058,7 +11058,7 @@ h5,
   font-size: 60px;
   color: #fff;
   line-height: 1.2;
-  font-weight: 400;
+  font-weight: 800;
   font-family: "EB Garamond", serif;
 }
 .owl-carousel.home-slider .slider-item .slider-text h1 span {
