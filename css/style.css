@@ -10693,6 +10693,24 @@ h5,
   z-index: 3;
   padding: 0;
 }
+
+.logo-mobile {
+  height: 50px;
+  display: none; /* Hide by default */
+  position: absolute;
+  left: 0px;
+  top: 10px;
+}
+
+@media (max-width: 768px) {
+  .logo-desktop {
+      display: none; /* Hide desktop logo on mobile */
+  }
+  .logo-mobile {
+      display: block; /* Show mobile logo */
+  }
+}
+
 @media (max-width: 991.98px) {
   .ftco-navbar-light {
     background: #000 !important;
@@ -10925,9 +10943,23 @@ h5,
 }
 
 .navbar-brand {
+  white-space: nowrap;
   font-weight: 400;
   font-size: 40px;
   font-family: "EB Garamond", serif;
+}
+
+@media (max-width: 768px) {
+  .navbar-brand {
+      white-space: normal; /* Allow text wrapping */
+      display: block; /* Ensure it takes full width */
+      text-align: center; /* Center the text */
+      font-size: 16px; /* Adjust font size if needed */
+      max-width: 80%; /* Prevent it from stretching too wide */
+      margin: 0 auto; /* Center it horizontally */
+      line-height: 1.2; /* Adjust line spacing for better readability */
+      margin-left: 50px;
+  }
 }
 
 .owl-carousel {
