@@ -18,6 +18,9 @@
       rel="stylesheet"
     />
 
+    <!-- Font Awesome for Play Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
     <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css" />
     <link rel="stylesheet" href="css/animate.css" />
 
@@ -41,6 +44,11 @@
       class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light"
       id="ftco-navbar"
     >
+      <!-- Desktop logo -->
+      <img src="./images/logo.png" alt="Logo" class="logo-desktop" style="height: 120px;  position: absolute;">
+      
+      <!-- Mobile logo  -->
+      <img src="./images/logo-dark.png" alt="Mobile Logo" class="logo-mobile">
       <div class="container">
         <div class="row m-auto">
           <div class="col-12 w-100 text-center">
@@ -74,12 +82,12 @@
                 <li class="nav-item">
                   <a href="classes.html" class="nav-link">Classes</a>
                 </li>
-                <li class="nav-item">
+                <!-- <li class="nav-item">
                   <a href="schedule.html" class="nav-link">Schedule</a>
                 </li>
                 <li class="nav-item">
                   <a href="blog.html" class="nav-link">Blog</a>
-                </li>
+                </li> -->
                 <li class="nav-item">
                   <a href="contact.html" class="nav-link">Contact</a>
                 </li>
@@ -91,10 +99,11 @@
     </nav>
     <!-- END nav -->
 
+    <!------------------------ Banner section   ------------------------>
     <section
       class="hero-wrap hero-wrap-2"
-      style="background-image: url('images/gymnastic3.jpg')"
-      data-stellar-background-ratio="0.5"
+      style="background-image: url('images/gymnastic3.jpg'); "
+      
     >
       <div class="overlay"></div>
       <div class="container">
@@ -112,229 +121,145 @@
       </div>
     </section>
 
-    <section class="ftco-section bg-light">
-      <div class="container">
-        <div class="row">
-          <div class="col-md-3 d-flex align-items-stretch">
-            <div class="offer-deal text-center">
-              <div
-                class="img"
-                style="background-image: url(images/gymnastic1.jpg)"
-              ></div>
-              <div class="text mt-4">
-                <h3 class="mb-4">Gymnastics</h3>
-                <p class="mb-5">
-                  Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind texts.
-                </p>
-                <p>
-                  <a href="#" class="btn btn-white px-4 py-3">
-                    Learn more <span class="ion-ios-arrow-round-forward"></span
-                  ></a>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 d-flex align-items-stretch">
-            <div class="offer-deal text-center">
-              <div
-                class="img"
-                style="background-image: url(images/gymnastic2.jpg)"
-              ></div>
-              <div class="text mt-4">
-                <h3 class="mb-4">Calisthenics</h3>
-                <p class="mb-5">
-                  Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind texts.
-                </p>
-                <p>
-                  <a href="#" class="btn btn-white px-4 py-3">
-                    Learn more <span class="ion-ios-arrow-round-forward"></span
-                  ></a>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 d-flex align-items-stretch">
-            <div class="offer-deal text-center">
-              <div
-                class="img"
-                style="background-image: url(images/yoga1.jpg)"
-              ></div>
-              <div class="text mt-4">
-                <h3 class="mb-4">Yoga</h3>
-                <p class="mb-5">
-                  Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind texts.
-                </p>
-                <p>
-                  <a href="#" class="btn btn-white px-4 py-3">
-                    Learn more <span class="ion-ios-arrow-round-forward"></span
-                  ></a>
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="col-md-3 d-flex align-items-stretch">
-            <div class="offer-deal text-center">
-              <div
-                class="img"
-                style="background-image: url(images/kids1.jpg)"
-              ></div>
-              <div class="text mt-4">
-                <h3 class="mb-4">Prenatal Yoga</h3>
-                <p class="mb-5">
-                  Far far away, behind the word mountains, far from the
-                  countries Vokalia and Consonantia, there live the blind texts.
-                </p>
-                <p>
-                  <a href="#" class="btn btn-white px-4 py-3">
-                    Learn more <span class="ion-ios-arrow-round-forward"></span
-                  ></a>
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
+    <!--------------------- Description section  --------------------->
+    <section class="ftco-section bg-light" >
+			<div class="container" style="max-width: 1400px;">
+				<div class="row">
+					<div class="col-md-3 d-flex align-items-stretch">
+						<div class="offer-deal text-center">
+							<div class="img" style="background-image: url(images/kids1.jpg);"></div>
+							<div class="text mt-4">
+								<h3 class="mb-4">Gymnastics</h3>
+								<p class="mb-5">Unlock your full potential with gymnastics! Boost your strength, flexibility, and coordination while building confidence and grace.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 d-flex align-items-stretch">
+						<div class="offer-deal text-center">
+							<div class="img" style="background-image: url(images/gymnastic2.jpg);"></div>
+							<div class="text mt-4">
+								<h3 class="mb-4">Calisthenics</h3>
+								<p class="mb-5">Transform your body with calisthenics! Master bodyweight exercises that improve strength, endurance, and agility—no equipment needed.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 d-flex align-items-stretch">
+						<div class="offer-deal text-center">
+							<div class="img" style="background-image: url(images/yoga1.jpg);"></div>
+							<div class="text mt-4">
+								<h3 class="mb-4">Yoga</h3>
+								<p class="mb-5">Find balance and peace through yoga! Reduce stress, increase flexibility, and achieve mental clarity with every session.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-3 d-flex align-items-stretch">
+						<div class="offer-deal text-center">
+							<div class="img" style="background-image: url(images/bodyfitness2.heic);"></div>
+							<div class="text mt-4">
+								<h3 class="mb-4">Body Fitness</h3>
+								<p class="mb-5">Get stronger, leaner, and healthier with our body fitness programs! Improve endurance, mobility, and overall well-being.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
 
+    <!--------------------- Experience of yoga  --------------------->
     <section class="ftco-section">
-      <div class="container">
-        <div class="row justify-content-center mb-5 pb-3">
+    	<div class="container">
+    		<div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-12 heading-section ftco-animate text-center">
             <h2 class="mb-1">Experience of Yoga</h2>
           </div>
         </div>
-        <div class="row">
-          <div class="col-md-4">
-            <div class="services-2 ftco-animate d-flex w-100">
-              <div
-                class="icon d-flex justify-content-center align-items-center order-md-last"
-              >
-                <span class="flaticon-stone"></span>
-              </div>
-              <div class="text text-md-right pl-4 pl-md-0 pr-md-4">
-                <h3>Balance Body &amp; Mind</h3>
-                <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia.
-                </p>
-              </div>
-            </div>
-            <div class="services-2 ftco-animate d-flex w-100">
-              <div
-                class="icon d-flex justify-content-center align-items-center order-md-last"
-              >
-                <span class="flaticon-stone"></span>
-              </div>
-              <div class="text text-md-right pl-4 pl-md-0 pr-md-4">
-                <h3>Healthy Daily Life</h3>
-                <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia.
-                </p>
-              </div>
-            </div>
-            <div class="services-2 ftco-animate d-flex w-100">
-              <div
-                class="icon d-flex justify-content-center align-items-center order-md-last"
-              >
-                <span class="flaticon-stone"></span>
-              </div>
-              <div class="text text-md-right pl-4 pl-md-0 pr-md-4">
-                <h3>Improves your flexibility</h3>
-                <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia.
-                </p>
-              </div>
-            </div>
-            <div class="services-2 ftco-animate d-flex w-100">
-              <div
-                class="icon d-flex justify-content-center align-items-center order-md-last"
-              >
-                <span class="flaticon-stone"></span>
-              </div>
-              <div class="text text-md-right pl-4 pl-md-0 pr-md-4">
-                <h3>Protects your spine</h3>
-                <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia.
-                </p>
-              </div>
-            </div>
-          </div>
+    		<div class="row">
+    			<div class="col-md-4">
+    				<div class="services-2 ftco-animate d-flex w-100">
+							<div class="icon d-flex justify-content-center align-items-center order-md-last">
+								<span class="flaticon-meditation"></span>
+							</div>
+							<div class="text text-left pl-4 pl-md-0 pr-md-4">
+								<h3>Balance Body &amp; Mind</h3>
+								<p>Yoga helps align physical movement with mental clarity, creating harmony between body and mind.</p>
+							</div>
+						</div>
+						<div class="services-2 ftco-animate d-flex w-100">
+							<div class="icon d-flex justify-content-center align-items-center order-md-last">
+								<span class="flaticon-meditation"></span>
+							</div>
+							<div class="text text-left pl-4 pl-md-0 pr-md-4">
+								<h3>Healthy Daily Life</h3>
+								<p>Incorporating yoga into daily routine promotes overall health, reducing stress and boosting vitality.</p>
+							</div>
+						</div>
+						<div class="services-2 ftco-animate d-flex w-100">
+							<div class="icon d-flex justify-content-center align-items-center order-md-last">
+								<span class="flaticon-meditation"></span>
+							</div>
+							<div class="text text-left pl-4 pl-md-0 pr-md-4">
+								<h3>Improves your flexibility</h3>
+								<p>Regular yoga practice enhances muscle flexibility, improves joint mobility, and supports overall body movement.</p>
+							</div>
+						</div>
+						<div class="services-2 ftco-animate d-flex w-100">
+							<div class="icon d-flex justify-content-center align-items-center order-md-last">
+								<span class="flaticon-meditation"></span>
+							</div>
+							<div class="text text-left pl-4 pl-md-0 pr-md-4">
+								<h3>Protects your spine</h3>
+								<p>Yoga strengthens the back, promotes good posture, and reduces risk of spinal injury or discomfort.</p>
+							</div>
+						</div>
+    			</div>
 
-          <div class="col-md-4 d-flex">
-            <div
-              class="img img-services w-100"
-              style="background-image: url(images/services.jpg)"
-            ></div>
-          </div>
+    			<div class="col-md-4 d-flex">
+    				<div class="img img-services w-100" style="background-image: url(images/yoga3.jpg);"></div>
+    			</div>
 
-          <div class="col-md-4">
-            <div class="services-2 ftco-animate d-flex w-100">
-              <div
-                class="icon d-flex justify-content-center align-items-center\"
-              >
-                <span class="flaticon-stone"></span>
-              </div>
-              <div class="text text-left pl-4">
-                <h3>Betters your bone health</h3>
-                <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia.
-                </p>
-              </div>
-            </div>
-            <div class="services-2 ftco-animate d-flex w-100">
-              <div
-                class="icon d-flex justify-content-center align-items-center\"
-              >
-                <span class="flaticon-stone"></span>
-              </div>
-              <div class="text text-left pl-4">
-                <h3>Increases your blood flow</h3>
-                <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia.
-                </p>
-              </div>
-            </div>
-            <div class="services-2 ftco-animate d-flex w-100">
-              <div
-                class="icon d-flex justify-content-center align-items-center\"
-              >
-                <span class="flaticon-stone"></span>
-              </div>
-              <div class="text text-left pl-4">
-                <h3>Keep a practice journal</h3>
-                <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia.
-                </p>
-              </div>
-            </div>
-            <div class="services-2 ftco-animate d-flex w-100">
-              <div
-                class="icon d-flex justify-content-center align-items-center\"
-              >
-                <span class="flaticon-stone"></span>
-              </div>
-              <div class="text text-left pl-4">
-                <h3>Builds muscle strength</h3>
-                <p>
-                  A small river named Duden flows by their place and supplies it
-                  with the necessary regelialia.
-                </p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
+    			<div class="col-md-4">
+    				<div class="services-2 ftco-animate d-flex w-100">
+							<div class="icon d-flex justify-content-center align-items-center\">
+								<span class="flaticon-meditation"></span>
+							</div>
+							<div class="text text-left pl-4">
+								<h3>Betters your bone health</h3>
+								<p>Weight-bearing yoga poses stimulate bone growth and maintain bone density, supporting lifelong skeletal health.</p>
+							</div>
+						</div>
+						<div class="services-2 ftco-animate d-flex w-100">
+							<div class="icon d-flex justify-content-center align-items-center\">
+								<span class="flaticon-meditation"></span>
+							</div>
+							<div class="text text-left pl-4">
+								<h3>Increases your blood flow</h3>
+								<p>Yoga enhances circulation, ensuring oxygen-rich blood reaches tissues, boosting energy and overall wellness.</p>
+							</div>
+						</div>
+						<div class="services-2 ftco-animate d-flex w-100">
+							<div class="icon d-flex justify-content-center align-items-center\">
+								<span class="flaticon-meditation"></span>
+							</div>
+							<div class="text text-left pl-4">
+								<h3>Keep a practice journal</h3>
+								<p>Tracking progress in yoga helps cultivate mindfulness, motivation, and awareness of personal growth.</p>
+							</div>
+						</div>
+						<div class="services-2 ftco-animate d-flex w-100">
+							<div class="icon d-flex justify-content-center align-items-center\">
+								<span class="flaticon-meditation"></span>
+							</div>
+							<div class="text text-left pl-4">
+								<h3>Builds muscle strength</h3>
+								<p>Consistent yoga practice tones muscles, builds core strength, and improves overall body strength and endurance.</p>
+							</div>
+						</div>
+    			</div>
+    		</div>
+    	</div>
     </section>
 
+    <!-------------------- Testimony section  -------------------->
     <section class="ftco-section testimony-section">
       <div class="container">
         <div class="row justify-content-center mb-5 pb-3">
@@ -349,27 +274,19 @@
               <div class="item">
                 <div class="testimony-wrap p-4 pb-5">
                   <div class="text">
-                    <div class="line">
-                      <p class="mb-4 pb-1">
-                        Far far away, behind the word mountains, far from the
-                        countries Vokalia and Consonantia, there live the blind
-                        texts.
-                      </p>
-                      <span
-                        class="quote d-flex align-items-center justify-content-center"
-                      >
-                        <i class="icon-quote-left"></i>
-                      </span>
-                    </div>
+                  	<div class="line">
+	                    <p class="mb-4 pb-1">I’ve been training here for a while now, and I love how strong and fit I feel. The trainers are great!</p>
+	                    <span class="quote d-flex align-items-center justify-content-center">
+	                      <i class="icon-quote-left"></i>
+	                    </span>
+	                  </div>
                     <div class="d-flex align-items-center">
-                      <div
-                        class="user-img"
-                        style="background-image: url(images/person_1.jpg)"
-                      ></div>
-                      <div class="ml-4">
-                        <p class="name">Gabby Smith</p>
-                        <span class="position">Customer</span>
-                      </div>
+                    	<div class="user-img" style="background-image: url(images/person_1.jpg)">
+		                  </div>
+		                  <div class="ml-4">
+		                  	<p class="name">Sunil Kumar</p>
+		                    <span class="position">Calisthenics</span>
+		                  </div>
                     </div>
                   </div>
                 </div>
@@ -378,27 +295,19 @@
                 <div class="testimony-wrap p-4 pb-5">
                   <div class="text">
                     <div class="line">
-                      <p class="mb-4 pb-1">
-                        Far far away, behind the word mountains, far from the
-                        countries Vokalia and Consonantia, there live the blind
-                        texts.
-                      </p>
-                      <span
-                        class="quote d-flex align-items-center justify-content-center"
-                      >
-                        <i class="icon-quote-left"></i>
-                      </span>
-                    </div>
+	                    <p class="mb-4 pb-1">My kids absolutely love their gymnastics classes here! The coaches are friendly, supportive, and focus on skill development.</p>
+	                    <span class="quote d-flex align-items-center justify-content-center">
+	                      <i class="icon-quote-left"></i>
+	                    </span>
+	                  </div>
 
                     <div class="d-flex align-items-center">
-                      <div
-                        class="user-img"
-                        style="background-image: url(images/person_2.jpg)"
-                      ></div>
-                      <div class="ml-4">
-                        <p class="name">Floyd Weather</p>
-                        <span class="position">Customer</span>
-                      </div>
+                    	<div class="user-img" style="background-image: url(images/person_2.jpg)">
+		                  </div>
+		                  <div class="ml-4">
+		                  	<p class="name">Banke Bihari Jha</p>
+		                    <span class="position">Body fitness</span>
+		                  </div>
                     </div>
                   </div>
                 </div>
@@ -407,27 +316,19 @@
                 <div class="testimony-wrap p-4 pb-5">
                   <div class="text">
                     <div class="line">
-                      <p class="mb-4 pb-1">
-                        Far far away, behind the word mountains, far from the
-                        countries Vokalia and Consonantia, there live the blind
-                        texts.
-                      </p>
-                      <span
-                        class="quote d-flex align-items-center justify-content-center"
-                      >
-                        <i class="icon-quote-left"></i>
-                      </span>
-                    </div>
+	                    <p class="mb-4 pb-1">A fantastic fitness academy! The workouts are intense, but the results speak for themselves. Perfect for any fitness level.</p>
+	                    <span class="quote d-flex align-items-center justify-content-center">
+	                      <i class="icon-quote-left"></i>
+	                    </span>
+	                  </div>
 
                     <div class="d-flex align-items-center">
-                      <div
-                        class="user-img"
-                        style="background-image: url(images/person_3.jpg)"
-                      ></div>
-                      <div class="ml-4">
-                        <p class="name">James Dee</p>
-                        <span class="position">Customer</span>
-                      </div>
+                    	<div class="user-img" style="background-image: url(images/person_3.jpg)">
+		                  </div>
+		                  <div class="ml-4">
+		                  	<p class="name">Rana Kumar</p>
+		                    <span class="position">Gymnast</span>
+		                  </div>
                     </div>
                   </div>
                 </div>
@@ -436,27 +337,19 @@
                 <div class="testimony-wrap p-4 pb-5">
                   <div class="text">
                     <div class="line">
-                      <p class="mb-4 pb-1">
-                        Far far away, behind the word mountains, far from the
-                        countries Vokalia and Consonantia, there live the blind
-                        texts.
-                      </p>
-                      <span
-                        class="quote d-flex align-items-center justify-content-center"
-                      >
-                        <i class="icon-quote-left"></i>
-                      </span>
-                    </div>
+	                    <p class="mb-4 pb-1">This place really helped me push my limits. The workouts are tough but so rewarding. I feel stronger every day.</p>
+	                    <span class="quote d-flex align-items-center justify-content-center">
+	                      <i class="icon-quote-left"></i>
+	                    </span>
+	                  </div>
 
                     <div class="d-flex align-items-center">
-                      <div
-                        class="user-img"
-                        style="background-image: url(images/person_4.jpg)"
-                      ></div>
-                      <div class="ml-4">
-                        <p class="name">Lance Roger</p>
-                        <span class="position">Customer</span>
-                      </div>
+                    	<div class="user-img" style="background-image: url(images/person_4.jpg)">
+		                  </div>
+		                  <div class="ml-4">
+		                  	<p class="name">Ankit Raj</p>
+		                    <span class="position">Calisthenics</span>
+		                  </div>
                     </div>
                   </div>
                 </div>
@@ -465,27 +358,19 @@
                 <div class="testimony-wrap p-4 pb-5">
                   <div class="text">
                     <div class="line">
-                      <p class="mb-4 pb-1">
-                        Far far away, behind the word mountains, far from the
-                        countries Vokalia and Consonantia, there live the blind
-                        texts.
-                      </p>
-                      <span
-                        class="quote d-flex align-items-center justify-content-center"
-                      >
-                        <i class="icon-quote-left"></i>
-                      </span>
-                    </div>
+	                    <p class="mb-4 pb-1">I’ve never felt more relaxed! The yoga sessions are exactly what I needed to recharge mentally and physically.</p>
+	                    <span class="quote d-flex align-items-center justify-content-center">
+	                      <i class="icon-quote-left"></i>
+	                    </span>
+	                  </div>
 
                     <div class="d-flex align-items-center">
-                      <div
-                        class="user-img"
-                        style="background-image: url(images/person_2.jpg)"
-                      ></div>
-                      <div class="ml-4">
-                        <p class="name">Kenny Bufer</p>
-                        <span class="position">Customer</span>
-                      </div>
+                    	<div class="user-img" style="background-image: url(images/person_5.jpg)">
+		                  </div>
+		                  <div class="ml-4">
+		                  	<p class="name">Jay Prakash</p>
+		                    <span class="position">Yoga</span>
+		                  </div>
                     </div>
                   </div>
                 </div>
@@ -496,143 +381,133 @@
       </div>
     </section>
 
+    <!--------------------- Latest photos  -------------------->
+		<section class="ftco-gallery ftco-section">
+    	<div class="container-fluid px-md-5">
+    		<div class="row justify-content-center mb-5 pb-3">
+          <div class="col-md-7 heading-section ftco-animate text-center">
+            <h2 class="mb-1">See the latest photos</h2>
+          </div>
+        </div>
+    		<div class="row">
+					<div class="col-md-3 ftco-animate">
+						<a href="images/bodyfitness1.webp" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/bodyfitness1.webp);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-instagram"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="images/bodyfitness3.webp" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/bodyfitness3.webp);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-instagram"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="images/gymnastic2.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gymnastic2.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-instagram"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="images/gymnastic3.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gymnastic3.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-instagram"></span>
+    					</div>
+						</a>
+					</div>
+
+					<div class="col-md-3 ftco-animate">
+						<a href="images/gymnastic4.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gymnastic4.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-instagram"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="images/gymnastic5.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gymnastic5.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-instagram"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="images/gymnastic7.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gymnastic7.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-instagram"></span>
+    					</div>
+						</a>
+					</div>
+					<div class="col-md-3 ftco-animate">
+						<a href="images/gymnastic8.jpg" class="gallery image-popup img d-flex align-items-center" style="background-image: url(images/gymnastic8.jpg);">
+							<div class="icon mb-4 d-flex align-items-center justify-content-center">
+    						<span class="icon-instagram"></span>
+    					</div>
+						</a>
+					</div>
+        </div>
+    	</div>
+    </section>
+
+    <!------------------- Latest Videos   ------------------->
     <section class="ftco-gallery ftco-section">
       <div class="container-fluid px-md-5">
         <div class="row justify-content-center mb-5 pb-3">
           <div class="col-md-7 heading-section ftco-animate text-center">
-            <h2 class="mb-1">Our Gallery</h2>
+            <h2 class="mb-1">Watch Our Latest Videos</h2>
           </div>
         </div>
         <div class="row">
           <div class="col-md-3 ftco-animate">
-            <a
-              href="images/yoga1.jpg"
-              class="gallery image-popup img d-flex align-items-center"
-              style="background-image: url(images/yoga1.jpg)"
-            >
-              <div
-                class="icon mb-4 d-flex align-items-center justify-content-center"
-              >
-                <span class="icon-instagram"></span>
-              </div>
-            </a>
+            <div class="video-container">
+              <video class="gallery-video" muted>
+                <source src="images/video1.mp4" type="video/mp4">
+              </video>
+              <div class="play-button"><i class="fas fa-play"></i></div>
+            </div>
           </div>
           <div class="col-md-3 ftco-animate">
-            <a
-              href="images/yoga2.jpg"
-              class="gallery image-popup img d-flex align-items-center"
-              style="background-image: url(images/yoga2.jpg)"
-            >
-              <div
-                class="icon mb-4 d-flex align-items-center justify-content-center"
-              >
-                <span class="icon-instagram"></span>
-              </div>
-            </a>
+            <div class="video-container">
+              <video class="gallery-video" muted>
+                <source src="images/video2.mp4" type="video/mp4">
+              </video>
+              <div class="play-button"><i class="fas fa-play"></i></div>
+            </div>
           </div>
           <div class="col-md-3 ftco-animate">
-            <a
-              href="images/gymnastic2.jpg"
-              class="gallery image-popup img d-flex align-items-center"
-              style="background-image: url(images/gymnastic2.jpg)"
-            >
-              <div
-                class="icon mb-4 d-flex align-items-center justify-content-center"
-              >
-                <span class="icon-instagram"></span>
-              </div>
-            </a>
+            <div class="video-container">
+              <video class="gallery-video" muted>
+                <source src="images/video3.mp4" type="video/mp4">
+              </video>
+              <div class="play-button"><i class="fas fa-play"></i></div>
+            </div>
           </div>
           <div class="col-md-3 ftco-animate">
-            <a
-              href="images/gymnastic3.jpg"
-              class="gallery image-popup img d-flex align-items-center"
-              style="background-image: url(images/gymnastic3.jpg)"
-            >
-              <div
-                class="icon mb-4 d-flex align-items-center justify-content-center"
-              >
-                <span class="icon-instagram"></span>
-              </div>
-            </a>
-          </div>
-
-          <div class="col-md-3 ftco-animate">
-            <a
-              href="images/gymnastic4.jpg"
-              class="gallery image-popup img d-flex align-items-center"
-              style="background-image: url(images/gymnastic4.jpg)"
-            >
-              <div
-                class="icon mb-4 d-flex align-items-center justify-content-center"
-              >
-                <span class="icon-instagram"></span>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-3 ftco-animate">
-            <a
-              href="images/gymnastic5.jpg"
-              class="gallery image-popup img d-flex align-items-center"
-              style="background-image: url(images/gymnastic5.jpg)"
-            >
-              <div
-                class="icon mb-4 d-flex align-items-center justify-content-center"
-              >
-                <span class="icon-instagram"></span>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-3 ftco-animate">
-            <a
-              href="images/gymnastic7.jpg"
-              class="gallery image-popup img d-flex align-items-center"
-              style="background-image: url(images/gymnastic7.jpg)"
-            >
-              <div
-                class="icon mb-4 d-flex align-items-center justify-content-center"
-              >
-                <span class="icon-instagram"></span>
-              </div>
-            </a>
-          </div>
-          <div class="col-md-3 ftco-animate">
-            <a
-              href="images/gymnastic8.jpg"
-              class="gallery image-popup img d-flex align-items-center"
-              style="background-image: url(images/gymnastic8.jpg)"
-            >
-              <div
-                class="icon mb-4 d-flex align-items-center justify-content-center"
-              >
-                <span class="icon-instagram"></span>
-              </div>
-            </a>
+            <div class="video-container">
+              <video class="gallery-video" muted>
+                <source src="images/video4.mp4" type="video/mp4">
+              </video>
+              <div class="play-button"><i class="fas fa-play"></i></div>
+            </div>
           </div>
         </div>
       </div>
     </section>
 
+    <!------------------ Footer section  ------------------>
     <footer class="ftco-footer ftco-section bg-light">
       <div class="container">
         <div class="row d-flex">
           <div class="col-md">
             <div class="ftco-footer-widget mb-4">
               <h2 class="ftco-heading-2">Phoenix Gymnastics</h2>
-              <p>
-                Far far away, behind the word mountains, far from the countries
-                Vokalia and Consonantia, there live the blind texts.
-              </p>
+              <p>Our academy is a powerhouse for fitness, gymnastics, calisthenics, and yoga. With expert trainers, a supportive community, and top-notch facilities, we help you build strength, flexibility, and confidence every day.</p>
               <ul class="ftco-footer-social list-unstyled float-lft mt-3">
-                <li class="ftco-animate">
-                  <a href="#"><span class="icon-twitter"></span></a>
-                </li>
-                <li class="ftco-animate">
-                  <a href="#"><span class="icon-facebook"></span></a>
-                </li>
-                <li class="ftco-animate">
-                  <a href="#"><span class="icon-instagram"></span></a>
-                </li>
+                <li class="ftco-animate"><a href="#"><span class="icon-twitter"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-facebook"></span></a></li>
+                <li class="ftco-animate"><a href="#"><span class="icon-instagram"></span></a></li>
               </ul>
             </div>
           </div>
@@ -643,7 +518,7 @@
                 <li><a href="#">Gymnastics</a></li>
                 <li><a href="#">Calisthenics</a></li>
                 <li><a href="#">Yoga</a></li>
-                <li><a href="#">Parental yoga</a></li>
+                <li><a href="#">Body Fitness</a></li>
               </ul>
             </div>
           </div>
@@ -664,24 +539,9 @@
               <h2 class="ftco-heading-2">Have a Questions?</h2>
               <div class="block-23 mb-3">
                 <ul>
-                  <li>
-                    <span class="icon icon-map-marker"></span
-                    ><span class="text"
-                      >kurji, opposite gate no 75 beside kurji pull, patna(Bihar), 800010</span
-                    >
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><span class="icon icon-phone"></span
-                      ><span class="text">+91 9835402432, +91 8210500043</span></a
-                    >
-                  </li>
-                  <li>
-                    <a href="#"
-                      ><span class="icon icon-envelope"></span
-                      ><span class="text">phoenixacademy@gmail.com</span></a
-                    >
-                  </li>
+                  <li><span class="icon icon-map-marker"></span><span class="text">kurji, opposite gate no 75 beside kurji pull, patna(Bihar), 800010</span></li>
+                  <li><a href="#"><span class="icon icon-phone"></span><span class="text">+91 9835402432, +91 8210500043</span></a></li>
+                  <li><a href="#"><span class="icon icon-envelope"></span><span class="text">phoenixacademy@gmail.com</span></a></li>
                 </ul>
               </div>
             </div>
@@ -689,15 +549,13 @@
         </div>
         <div class="row">
           <div class="col-md-12 text-center">
+
             <p class="mb-0">
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
-              Copyright &copy;
-              <script>
+              Copyright &copy;<script>
                 document.write(new Date().getFullYear());
-              </script>
-              All rights reserved | This template is made with
-              <i class="icon-heart" aria-hidden="true"></i> by
-              <a href="https://colorlib.com" target="_blank">Colorlib</a>
+
+              </script> All rights reserved 
               <!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
             </p>
           </div>
