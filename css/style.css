@@ -11262,7 +11262,7 @@ h5,
 }
 @media (max-width: 991.98px) {
   .hero-wrap {
-    background-position: top right !important;
+    /* background-position: top right !important; */
   }
 }
 .hero-wrap .overlay {
@@ -12088,14 +12088,16 @@ textarea.form-control {
   color: #fff;
 }
 
-#map {
-  width: 100%;
+#maps {
+  width: 80%;
+  margin-top: 20px;
+  justify-self: center;
 }
-#map.map {
-  height: 400px;
+#maps.maps {
+  height: 500px;
 }
 @media (max-width: 991.98px) {
-  #map {
+  #maps {
     height: 300px;
   }
 }
@@ -12426,6 +12428,10 @@ textarea.form-control {
   background: #ffb5b5;
   color: #fff;
   border: 1px solid transparent;
+}
+
+.contact-section{
+  margin-top: 20px;
 }
 
 .contact-section .contact-info {
